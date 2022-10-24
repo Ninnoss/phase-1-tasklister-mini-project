@@ -35,3 +35,34 @@ button {
   border-radius: 5px;
   box-shadow: 2px 5px 5px #333;
 }
+
+#removeAll, #sort{
+  display: block;
+  font-size: 0.8em;
+  margin-bottom: 0.2em;
+}
+
+.high {
+  color: red;
+}
+.medium {
+  color: orange;
+}
+.low {
+  color: green;
+}
+
+#tasks {
+  display: flex;
+  flex-direction: column;
+}
+
+.order3 {
+  order: 1
+}
+.order2 {
+  order: 2
+}
+.order1 {
+  order: 3
+}
